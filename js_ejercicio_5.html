@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 - Calculadora Sencilla</title>
+  <script type="module" crossorigin src="./assets/main-b3pKYzVI.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-C9eXkyzM.css">
+</head>
+
+<body data-page="ejercicio5">
+    <div class="container">
+        <h1>5 - Calculadora Sencilla</h1>
+        <p><strong>Objetivo del ejercicio:</strong> Practicar la manipulación de formularios, eventos, y lógica básica de JavaScript.</p>
+        <h3>Ejercicio:</h3>
+        <p>Crea una página con dos campos de entrada de números y cuatro botones: "Sumar", "Restar", "Multiplicar", y "Dividir".</p>
+        <ul>
+            <li>Al hacer clic en cualquiera de los botones, debe mostrarse el resultado de la operación en un área de texto o debajo de los botones.</li>
+            <li>Asegúrate de validar los datos para evitar errores (como división por cero o entradas vacías).</li>
+        </ul>
+        <button class="btnVolver">Volver</button>
+        <div class="separator"></div>
+
+        <div id="formEx4">
+            <div id="operandosEx5">
+                <p>
+                    <label for="operand1">Operando 1:</label>
+                    <input type="number" name="operand1" id="operand1">
+                </p>
+                <p>
+                    <label for="operand2">Operando 2:</label>
+                    <input type="number" name="operand2" id="operand2">
+                </p>
+            </div>
+            <div id="operadoresEx5">
+                <button data-operation="add">Sumar</button>
+                <button data-operation="subtract">Restar</button>
+                <button data-operation="multiply">Multiplicar</button>
+                <button data-operation="divide">Dividir</button>
+            </div>
+            <div id="resultEx5">
+                <label for="result">Resultado:</label>
+                <input type="text" name="result" id="result" readonly>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
