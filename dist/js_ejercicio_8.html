@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 - Contador de Palabras y Caracteres</title>
+  <script type="module" crossorigin src="./assets/main-b3pKYzVI.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-C9eXkyzM.css">
+</head>
+
+<body data-page="ejercicio8">
+    <div class="container">
+        <h1>8 - Contador de Palabras y Caracteres</h1>
+        <p><strong>Objetivo del ejercicio:</strong> Practicar eventos en tiempo real y manipulación avanzada del DOM.</p>
+        <h3>Ejercicio:</h3>
+        <p>Crea una página con un campo de texto donde el usuario pueda escribir un párrafo.</p>
+        <ul>
+            <li>Muestra en tiempo real el número de caracteres y palabras ingresados debajo del campo.</li>
+            <li>Palabras deben ser separadas por espacios, y los caracteres no deben incluir espacios ni saltos de línea.</li>
+        </ul>
+        <button class="btnVolver">Volver</button>
+        <div class="separator"></div>
+
+        <div id="containerEx8">
+            <form action="">
+                <label for="paragraph">Escribe texto:</label>
+                <textarea name="paragraph" id="paragraph"></textarea>
+            </form>
+            <div id="paragraphInfo">
+                <div>
+                    <p>Número de caracteres:</p>
+                    <p id="nCharacters">0</p>
+                </div>
+                <div>
+                    <p>Número de palabras:</p>
+                    <p id="nWords">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
