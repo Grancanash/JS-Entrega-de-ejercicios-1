@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 - Filtro de Búsqueda en Tiempo Real</title>
+</head>
+
+<body data-page="ejercicio4">
+    <div class="container">
+        <h1>4 - Filtro de Búsqueda en Tiempo Real</h1>
+        <p><strong>Objetivo del ejercicio:</strong> Practicar la interacción entre eventos del DOM y lógica en JavaScript.</p>
+        <h3>Ejercicio:</h3>
+        <p>Crea una página con un campo de texto y una lista predefinida de elementos.</p>
+        <ul>
+            <li>Mientras el usuario escribe en el campo, la lista debe actualizarse en tiempo real para mostrar solo los elementos que contienen el texto escrito.</li>
+        </ul>
+        <p><strong>Ejemplo:</strong> Si la lista contiene <code>["Perro", "Gato", "Pez"]</code> y el usuario escribe "Ga", solo "Gato" debe
+            quedar visible.</p>
+        <button class="btnVolver">Volver</button>
+        <div class="separator"></div>
+
+        <div id="formEx3">
+            <label for="texto">Escribe un texto:</label>
+            <input type="text" name="texto" id="texto">
+            <button id="btnAddText">Agregar</button>
+        </div>
+        <div id="listEx4"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

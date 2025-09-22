@@ -1,0 +1,32 @@
+#containerEx8 {
+    form {
+        display: flex;
+        flex-direction: column;
+
+        textarea {
+            line-height: 1.5;
+            height: calc(1.5em * 5);
+        }
+    }
+
+    #paragraphInfo {
+        display: flex;
+        flex-direction: column;
+
+        > div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            p {
+                padding: 0;
+            }
+            p:last-of-type {
+                font-size: 30;
+            }
+        }
+
+        #nCharacters, #nWords {
+            font-size: 30px;
+        }
+    }
+}

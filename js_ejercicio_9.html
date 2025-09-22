@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9 - Lista de Tareas con LocalStorage</title>
+</head>
+
+<body data-page="ejercicio9">
+    <div class="container">
+        <h1>9 - Lista de Tareas con LocalStorage</h1>
+        <p><strong>Objetivo del ejercicio:</strong> Practicar persistencia de datos con localStorage.</p>
+        <h3>Ejercicio:</h3>
+        <p>Crea una aplicación de lista de tareas.</p>
+        <ul>
+            <li>Cada tarea debe incluir un texto y un checkbox para marcarla como completada.</li>
+            <li>Las tareas se deben guardar en localStorage para que persistan incluso si la página se recarga</li>
+            <li>Debe incluir un botón para limpiar todas las tareas completadas y actualizar el localStorage.</li>
+        </ul>
+        <button class="btnVolver">Volver</button>
+        <div class="separator"></div>
+
+        <div id="containerEx9">
+            <form>
+                <div>
+                    <label for="todo">Nueva tarea:</label>
+                    <input type="text" name="todo" id="todo" required>
+                </div>
+                <button type="submit" id="addTask">Agregar tarea</button>
+                <button type="button" id="resetTasks">Reiniciar Lista de tareas</button>
+            </form>
+            <ul id="listTodo"></ul>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

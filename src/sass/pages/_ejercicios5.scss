@@ -1,0 +1,31 @@
+#formEx4 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#operandosEx5 {
+    display: flex;
+    gap: 15px;
+    input {
+        width: 100%;
+    }
+}
+
+#operadoresEx5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resultEx5 {
+    input {
+        width: 100%;
+        font-size: 24px;
+    }
+}
+
+input {
+    padding: 5px;
+}
