@@ -14,7 +14,7 @@ export default defineConfig({
         ejercicio6: "js_ejercicio_6.html",
         ejercicio7: "js_ejercicio_7.html",
         ejercicio8: "js_ejercicio_8.html",
-        ejercicio9: "js_ejercicio_9.html",
+        ejercicio9origin: "js_ejercicio_9.html",
       }
     }
   },
